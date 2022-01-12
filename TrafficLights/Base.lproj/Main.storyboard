@@ -29,6 +29,9 @@
                                 <state key="normal" title="START">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="getStartButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="QcU-Bw-hGQ"/>
+                                </connections>
                             </button>
                             <stackView autoresizesSubviews="NO" opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="27J-dw-Njw">
                                 <rect key="frame" x="125.5" y="122" width="163" height="548"/>
@@ -75,7 +78,6 @@
                     <connections>
                         <outlet property="greenView" destination="Uiw-3r-7kx" id="Gjt-dt-pL8"/>
                         <outlet property="redView" destination="Y8k-ac-zEd" id="rGN-Ky-ClG"/>
-                        <outlet property="stackView" destination="27J-dw-Njw" id="n4j-ke-trM"/>
                         <outlet property="startButton" destination="c9w-mn-TfA" id="WGr-Rv-edm"/>
                         <outlet property="yellowView" destination="Hsc-Fk-wWr" id="Rxi-eo-sxT"/>
                     </connections>
