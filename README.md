@@ -1,4 +1,4 @@
-# TrafficLights - SwiftUI
+# TrafficLights
 Приложение "Светофор"
 
 <img width="363" alt="1" src="https://user-images.githubusercontent.com/90995165/167327823-5747af76-304a-4789-a704-a3c000a8378e.png">
